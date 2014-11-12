@@ -15,10 +15,10 @@ echo $mojeZwierze->umaszczenie."\n";
 $mojeZwierze->umaszczenie="kruczoczarny";
 echo $mojeZwierze->umaszczenie."\n";
 
-	function helloZwierze($z){
-		return "Witaj! To ja - Twój/Twoja ".$z->gatunek.". Jestem ".$z->umaszczenie." i wydam dla Ciebie słodkie ".$z->wydawanyDzwiek."."."\n";
-	}
+function helloZwierze($z){
+	return "Witaj! To ja - Twój/Twoja ".$z->gatunek.". Jestem ".$z->umaszczenie." i wydam dla Ciebie słodkie ".$z->wydawanyDzwiek."."."\n";
+}
 	
-	echo helloZwierze($mojeZwierze);
+echo helloZwierze($mojeZwierze);
 
 ?>
