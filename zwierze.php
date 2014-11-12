@@ -22,25 +22,25 @@ class Zwierze implements ZwierzeInterface{
 	public function getGatunek(){
 		return $this->gatunek;
 	}
-    public function setGatunek($gatunek){
+    	public function setGatunek($gatunek){
 		$this->gatunek=$gatunek;
 	}
-    public function getPlec(){
+    	public function getPlec(){
 		return $this->plec;
 	}
-    public function setPlec($plec){
+    	public function setPlec($plec){
 		$this->plec=$plec;
 	}
-    public function getWydawanyDzwiek(){
+    	public function getWydawanyDzwiek(){
 		return $this->wydawanyDzwiek;
 	}
-    public function setWydawanyDzwiek($wydawanyDzwiek){
+    	public function setWydawanyDzwiek($wydawanyDzwiek){
 		$this->wydawanyDzwiek=$wydawanyDzwiek;
 	}
-    public function getUmaszczenie(){
+    	public function getUmaszczenie(){
 		return $this->umaszczenie;
 	}
-    public function setUmaszczenie($umaszczenie){
+    	public function setUmaszczenie($umaszczenie){
 		$this->umaszczenie=$umaszczenie;
 	}
 }
