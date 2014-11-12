@@ -20,5 +20,4 @@ function helloZwierze($z){
 }
 	
 echo helloZwierze($mojeZwierze);
-
 ?>
